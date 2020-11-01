@@ -98,7 +98,7 @@ void loop() {
   
   
   display.display();
-  delay(100);  //this schould be changed to millis 
+  delay(100);  //this should be changed to millis in future because cause delay in communications.
    
   display.clearDisplay();                   //clear display
 }
